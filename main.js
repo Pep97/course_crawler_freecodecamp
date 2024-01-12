@@ -1,0 +1,16 @@
+/* in JSON devDependencies are intended to be used only from the developer, whereas dependencies are intended to be used from the running application.
+
+Order list of all commands run into the terminal
+
+npm install
+npm init
+npm install --save-dev jest
+npm install jsdom
+
+
+
+
+*/
+
+
+console.log('hello world')
