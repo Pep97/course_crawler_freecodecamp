@@ -7,13 +7,21 @@ npm init
 npm install --save-dev jest
 npm install jsdom
 
+-------------------
+
+run a test -> npm run test
+
+crawl -> npm run start https://www.example.com
+
+// run -> npm run start https://wagslane.dev
+
 
 
 
 */
 
-const {crawlPage} = require('./crawl.js')
-const {printReport} = require('./report.js')
+const {crawlPage} = require('./crawl.js') // import the crawlPage function from crawl.js
+const {printReport} = require('./report.js') // import the printReport function from report.js
 
 async function main(){
     if (process.argv.length < 3) {

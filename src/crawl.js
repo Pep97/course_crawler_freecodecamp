@@ -1,4 +1,4 @@
-const {JSDOM} = require('jsdom')
+const {JSDOM} = require('jsdom');
 
 async function crawlPage(baseUrl, currentURL, pages){
 
@@ -120,3 +120,4 @@ function normalizeUrl(urlString) {
       getURLsFromHTML,
       crawlPage
   }
+
