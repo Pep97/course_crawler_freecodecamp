@@ -15,6 +15,15 @@ crawl -> npm run start https://www.example.com
 
 // run -> npm run start https://wagslane.dev
 
+------------------------
+
+- you get errors with absolute links
+
+website to show:
+
+- https://www.wildwoodbakery.com.au
+- https://progenycoffee.com
+
 
 
 
